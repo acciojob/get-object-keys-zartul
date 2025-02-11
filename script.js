@@ -3,7 +3,7 @@ let student={
 	name:"yor";
 	age:20;
 }
-function getKeys(obj){
-	return Object.keys(obj);
+function getKeys(student){
+	return Object.keys(student);
 }
 console.log(getKeys(student)); 
