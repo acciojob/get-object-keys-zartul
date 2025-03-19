@@ -1,9 +1,12 @@
 //your JS code here. If required.
-const student={
-	name:"yor";
-	age:20;
+const student = {
+  name: "Bruce",
+	age:"25",
+	city:"Gotham",
+};
+
+function getKeys(obj) {
+  return Object.keys(obj);
 }
-Object.prototype.getkeys=function(obj){
-	return Object.keys(this);
-}
+
 console.log(getKeys(student)); 
